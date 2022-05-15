@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.home{
+    flex: 4;
+}
+
+.homeWidgets{
+    display:grid;
+    margin: 20px;
+    /* flex: 4;
+     */
+    
+}

@@ -1,0 +1,25 @@
+import './App.css';
+import Home from './Component/pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Register from './Component/pages/SignUp';
+import Login from './Component/pages/Login';
+import SideMenu from './Component/pages/SideMenu';
+
+function App() {
+  return (
+    // <SideMenu/>
+  <>
+      { <Router>
+         <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/sign-up" element={<Register />} />
+              <Route path="/sign-in" element={<Login />} />
+              
+         </Routes>
+      </Router>  
+      }
+ </>
+  );
+}
+
+export default App;
